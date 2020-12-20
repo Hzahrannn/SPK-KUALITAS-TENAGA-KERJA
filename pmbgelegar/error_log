@@ -1,0 +1,4 @@
+[15-Mar-2020 08:24:36 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/himsiuns/pmb.himsiunsri.org/adminku/koneksi.php on line 3
+[26-Mar-2020 15:36:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/himsiuns/pmb.himsiunsri.org/pmbgelegar/koneksi.php on line 3
+[26-Mar-2020 15:42:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'himsiuns_pmb20'@'localhost' (using password: NO) in /home/himsiuns/pmb.himsiunsri.org/pmbgelegar/koneksi.php on line 3
+[26-Mar-2020 15:45:10 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'Asdwasdw12345'@'localhost' (using password: NO) in /home/himsiuns/pmb.himsiunsri.org/pmbgelegar/koneksi.php on line 3
