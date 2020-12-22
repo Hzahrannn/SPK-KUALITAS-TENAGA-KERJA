@@ -1,0 +1,1056 @@
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: LemonMilk;
+  src: url('../../font/LemonMilkBold.otf');
+}
+
+.lemonmilk{
+  font-family: LemonMilk !important;
+}
+
+.text-large{
+  font-size: 50px !important;
+}
+
+.chooser:hover{
+  background: #aaa !important;
+}
+
+.max-height-100{
+  max-height: 100vh;
+}
+
+body{
+  color: #000;
+  background: #efefef;
+  padding: 0;
+  margin: 0;
+  font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+}
+
+.welcome-background{
+  background-image: url("../image/Carousel/Slide3.jpeg");
+}
+
+.welcome-background{
+  background-image: url("../image/Carousel/Slide3.jpeg");
+}
+
+.background{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-primary{
+  background-color: #ff3b3f !important;
+}
+
+.bg-white{
+  background-color: #fff !important;
+}
+
+.bg-muted{
+  background-color: #D3D3D3 !important;
+}
+
+	/* Chrome, Sa fari, Edge, Opera */
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+
+	.name_title:first-letter {
+		text-transform: uppercase;
+	}
+
+	/* Firefox */
+	input[type=number] {
+		-moz-appearance: textfield;
+	}
+
+	.form-control::-webkit-input-placeholder {
+		color: #bbb;
+	}
+
+.opacity-80{
+  opacity: 80%;
+}
+
+h1{
+  padding: 0;
+  margin: 0;
+}
+
+h3{
+  padding-top: 0;
+  margin-top: 4px;
+}
+
+p{
+  padding-top: 0;
+  margin-top: 8px;
+}
+
+.p-small {
+  font-size: 10pt;
+}
+
+a{
+  color: #ff3b3f;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+a.text-light:hover {
+  color: #424242 !important;
+  text-shadow: 0px 0px #000 !important;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.badge-notification {
+  position: absolute;
+  top: -3px;
+  right: 5px;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.badge-button-notification{
+  margin-top: -30px;
+  margin-right: -25px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  color: #424242 !important;
+}
+
+.list-title{
+  font-size: 1.5rem !important;
+  margin-top: 10px !important;
+  margin-bottom: 5px !important;
+}
+
+.text-shadow{
+  text-shadow: 1px 1px #000;
+}
+
+.text-no-shadow{
+  text-shadow: 0px 0px #000 !important;
+}
+
+.shadow-0{
+  box-shadow: 0px 0 0px rgba(0, 0, 0, 0.0) !important;
+}
+
+.field{
+  margin-bottom: 4px;
+  padding-bottom: 0;
+}
+
+.text-green{
+  color: #22bb33;
+}
+
+.text-grey{
+  color: #aaa !important;
+}
+
+.text-red{
+  color: #ff3b3f !important;
+}
+
+.text-black{
+  color: #000 !important;
+}
+
+.text-white{
+  color: white !important;
+}
+
+.text-capitalize{
+  text-transform: capitalize;
+}
+
+.text-lowercase{
+  text-transform: lowercase;
+}
+
+.p-5{
+  padding: 30px;
+}
+
+.pm-b-1{
+  margin-top: 8px;
+  padding-top: 0;
+  margin-bottom: 8px;
+  padding-bottom: 0;
+}
+
+.pm-0{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  background: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
+  border-radius: 0 !important;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.cover{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.color-icon{
+  width: 10px;
+  height: 10px;
+}
+
+.icon{
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.logo{
+  width: 100%;
+  height: auto;
+  padding: 10%;
+  /* border: 1px solid #ccc; */
+}
+
+.logo-profile{
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: contain;
+  margin-top: -100px;
+}
+
+.logo-profile-image{
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: contain;
+}
+
+.logo-company-profile-image{
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: contain;
+  padding: 15px !important;
+}
+
+.logo-lokal{
+  width: 250px !important;
+  height: auto !important;
+  margin: 12px;
+}
+
+.logo-lokal-small{
+  width: auto !important;
+  height: 30px !important;
+  margin-left: -3px;
+}
+
+.logo-small{
+  width: 20%;
+  height: auto;
+}
+
+.logo-medium{
+  width: 30%;
+  height: auto;
+}
+
+.user-image-small{
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.user-image{
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.logo-image-small{
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.layer {
+  background: #000000;
+  opacity: 50%;
+  z-index: -1;
+}
+
+.carousel-image-layer{
+  background: #000000;
+  opacity: 50%;
+  z-index: 2;
+}
+
+.img-list{
+  width: calc((100% / 3) - 12px);
+  height: width;
+  border: 1px solid #ccc;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.logo-list{
+  width: 80px !important;
+  height: 80px !important;
+  margin: 0;
+  padding: 5px;
+  object-fit: contain;
+}
+
+.material-icons{
+  width: 14px !important;
+  height: 14px !important;
+  font-size: 14px !important;
+}
+
+.icon-large{
+  width: 24px !important;
+  height: 24px !important;
+  font-size: 24px !important;
+}
+
+.icon-big{
+  font-size: 30px !important;
+}
+
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.btn-outline-danger{
+  color: #ff3b3f;
+  border: 1px solid #ff3b3f;
+  border-radius: 4px;
+  background: transparent;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.btn-outline-danger:hover{
+  color: #fff;
+  background: #ff3b3f;
+  border: 1px solid #ff3b3f;
+}
+
+.btn-danger{
+  color: #fff;
+  border-radius: 4px;
+  background: #ff3b3f !important;
+  margin-top: 8px;
+  cursor: pointer;
+  border: 1px solid #ff3b3f !important;
+}
+
+.btn-danger:hover{
+  color: #fff;
+  border-radius: 4px;
+  background: #424242;
+  margin-top: 8px;
+  cursor: pointer;
+  border: 1px solid #424242;
+}
+
+.btn-small{
+  padding: 8px;
+  font-size: 12px;
+}
+
+.text-normal{
+  font-size: 16px !important;
+}
+
+.text-medium{
+  font-size: 14px !important;
+}
+
+.text-small{
+  font-size: 12px !important;
+}
+
+.text-xsmall{
+  font-size: 10px !important;
+}
+
+.subtitle{
+  font-size: 25px;
+}
+
+.btn-round{
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background: transparent;
+  border: 1px solid #aaa;
+  color: #aaa !important;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-round-small{
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  color: #aaa !important;
+  font-size: 10px;
+}
+
+.btn-round-red{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: #ff3b3f;
+  color: #fff !important;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+.navbar-toggler {
+  border: 0;
+}
+
+.align-end{
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: center;
+  align-self: center;
+  text-align: end;
+}
+
+.align-center{
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+hr{
+  border-top: 0.001px solid #ccc;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.border-l-0{
+  border-left: 0px;
+}
+
+.border-r-0{
+  border-right: 0px;
+}
+
+li{
+  margin: 12px;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  .img-list{
+    width: calc((100% / 6) - 12px);
+  }
+}
+
+@media (min-width: 992px) {
+  .fix-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+}
+
+@media (min-width: 1200px) {
+  .fix-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+}
+
+.carousel-caption{
+  color: white !important;
+  padding-bottom: 100px;
+}
+
+.carousel {
+  height: 100vh !important;
+  max-height: 100vh !important;
+}
+
+.carousel-inner {
+  height: 100vh !important;
+  max-height: 100vh !important;
+}
+
+.carousel-item {
+  height: 100vh !important;
+  max-height: 100vh !important;
+}
+
+.carousel-image{
+  object-fit: cover !important;
+  height: 100vh !important;
+}
+
+.mt--100{
+  margin-top: -100px !important;
+}
+
+.mt--75{
+  margin-top: -75px !important;
+}
+
+.mt--42{
+  margin-top: -42px;
+}
+
+.mr--75{
+  margin-right: -75px;
+}
+
+.ml--35{
+  margin-left: -35px;
+}
+
+.logo-appstore{
+  width: auto;
+  height: 30px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #f1f1f1; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav-item {
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ff3b3f;
+  display: block;
+  transition: 0.3s;
+  margin-top: 12px !important;
+}
+
+.sidenav-item:hover {
+  color: #fff !important;
+  background: #ff3b3f;
+  margin: 0px 10px;
+  padding: 16px 22px !important;
+  box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.sidenav-selected {
+  color: #fff !important;
+  background: #ff3b3f;
+  margin: 0px 10px;
+  padding: 16px 22px !important;
+  box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  padding: 10px !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mr--75{
+    margin-right: -20px;
+  }
+}
+
+.nav-selected{
+  background-color: white;
+  color: #424242 !important;
+  padding-top: 36px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -25px;
+  margin-bottom: -8px;
+}
+
+.cover-detail{
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.bg-white{
+  background: #fff !important;
+}
+
+.btn-rounded{
+  border-radius: 28px !important;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.container-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.right {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-image:hover .image {
+  opacity: 0.3;
+}
+
+.container-image:hover .middle {
+  opacity: 1;
+}
+
+.container-image:hover .right {
+  opacity: 1;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.name_title:first-letter {
+  text-transform: uppercase;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.form-control::-webkit-input-placeholder {
+	color: #bbb;
+}
+
+.dropdown-menu{
+  width: max-content !important;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  background: #fff;
+  box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
+  border-radius: 0 !important;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-item{
+  padding: 8px 24px;
+  color: #424242 !important;
+}
+
+.profile-image-medium{
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.h-100{
+  min-height: 100% !important;
+  height: 100%;
+}
+
+#loading{
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  position: fixed;
+  margin: auto;
+  left: calc((100% - 250px) / 2);
+  top: calc((100% - 100px) / 2);
+}
+
+.container-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bottom {
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.right {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-image:hover .image {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.container-image:hover .middle {
+  opacity: 1;
+}
+
+.container-image:hover .right {
+  opacity: 1;
+}
+
+.container-image:hover .bottom {
+  opacity: 1;
+}
+
+.bg-danger{
+  background: #ff3b3f !important;
+}
+
+.bg-red{
+  background: #ff3b3f !important;
+}
+
+.custom-select.is-valid, .form-control.is-valid, .was-validated .custom-select:valid, .was-validated .form-control:valid {
+  border-color: #ced4da;
+}
+
+.custom-select.is-valid:focus, .form-control.is-valid:focus, .was-validated .custom-select:valid:focus, .was-validated .form-control:valid:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+#isiMessage {
+  height: 200px !important; 
+  max-height: 200px !important;
+  overflow-y: auto !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.name_title:first-letter {
+  text-transform: uppercase;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.form-control::-webkit-input-placeholder {
+	color: #bbb;
+}
+
+.line{
+  height: 2px; width: 40px;
+}
+
+.rating {
+	float:left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t
+follow these rules. Every browser that supports :checked also supports :not(), so
+it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+	/* position:absolute;
+	top:-9999px;
+  clip:rect(0,0,0,0); */
+  display: none;
+}
+
+.rating:not(:checked) > label {
+	float:right;
+	width:1em;
+	/* padding:0 .1em; */
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+	font-size:300%;
+	/* line-height:1.2; */
+	color:#ddd;
+}
+
+.rating:not(:checked) > label:before {
+	content: '★ ';
+}
+
+.rating > input:checked ~ label {
+	color: dodgerblue;
+
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+	color: dodgerblue;
+
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+	color: #ffc107;
+
+}
+
+.rating > label:active {
+	position:relative;
+	top:2px;
+	left:2px;
+	}.rating {
+		float:left;
+	}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t
+follow these rules. Every browser that supports :checked also supports :not(), so
+it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+	/* position:absolute;
+	top:-9999px;
+  clip:rect(0,0,0,0); */
+  display: none;
+  clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+	float:right;
+	width:1em;
+	/* padding:0 .1em; */
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+	font-size:300%;
+	/* line-height:1.2; */
+	color:#ddd;
+}
+
+.rating:not(:checked) > label:before {
+	content: '★ ';
+}
+
+.rating > input:checked ~ label {
+	color: #ffc107;
+
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+	color: #ffc107;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+	color: #ffc107;
+
+}
+.rating > label:active {
+	position:relative;
+	top:2px;
+	left:2px;
+}
+
+.ui-menu img{
+  width:40px;
+  height:40px;
+  object-fit: contain;
+  object-position: center;
+  margin-right: 8px;
+}
+
+.ui-menu-item-wrapper{
+  width: 100% !important;
+  height: 50px;
+}
+
+.ui-menu-item{
+  width:100% !important;
+  height:auto;
+  padding: 5px;
+}
+
+.horizontal-line{
+  width: 100% !important;
+  border-bottom: 0.5px solid rgba(0,0,0,.125) !important;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+  background-color: #ff3b3f !important;
+  color: #fff !important;
+}
+.dropdown-item.active, .dropdown-item:focus{
+  background-color: #ff3b3f !important;
+  color: #fff !important;
+}
+.dropdown-item.active, .dropdown-item:hover{
+  background-color: #ff3b3f !important;
+  color: #fff !important;
+}
+
+.badge{
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+
+.image-upload >input {
+  display: none;
+}
